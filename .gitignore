@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+
+# Built output
+dist/
+build/
+.eslintcache
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Jest coverage directory
+coverage/
+
+# Vite cache directory
+.cache/
+
+# Compiled files
+build/
+
+# Mac specific files
+.DS_Store

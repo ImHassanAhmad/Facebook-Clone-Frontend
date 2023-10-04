@@ -1,0 +1,82 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: Open Sans;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Manrope", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: overlay;
+  text-align: start;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 430px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
